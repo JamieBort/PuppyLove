@@ -2,7 +2,15 @@
   border: .2em solid #fcd254;
   height: 100vh;
 }
+
 header {
   background-color: orange;
+}
 
+.main_navigation a{
+  border: .05em solid white;
+}
+
+#page_content section h2 {
+  color: #bbe4f6;
 }
