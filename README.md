@@ -10,5 +10,3 @@ The starter_files folder contains the starter HTML file, the img folder (contain
 
 Mockup  
 ![Mockup Screenshot](images/02547e40-screenshot.png)
-[Mockup Screenshot](images/02547e40-screenshot.png)
-[Mockup Screenshot](https://tiy-learn-content.s3.amazonaws.com/02547e40-screenshot.png)
