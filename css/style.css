@@ -1,18 +1,38 @@
+*{
+  margin:auto;
+}
+
 #container{
   border: .2em solid #fcd254;
-  height: 100vh;
+  /*height: 100vh;*/
+  height: 100%;
+  width: 90%;
+  /*margin: auto;*/
+
 }
 
 header {
-  background-color: orange;
+  background-color: #fd8534;
 }
 
 .main_navigation a{
   border: .05em solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
 }
 
-#page_content section h1 {
+#page_content section h1{
+  margin: auto;
+}
+
+#page_content section {
   color: #bbe4f6;
+  width: 95%
+}
+
+li{
+  font-weight: bold;
 }
 
 #table_title, #form_title {
@@ -21,4 +41,40 @@ header {
 
 table{
   /*background-color: black;*/
+  /*margin:auto;*/
+}
+
+#row_one{
+  background: #2cace3;
+  color: white;
+}
+
+.line{
+  border-top: #dbdbdb 3.5px solid;
+  /*margin:auto;*/
+  width: 95%
+  /*padding: 0px 10px;*/
+  /*padding: 5em 0%;*/
+}
+
+form{
+  background: #dbdbdb;
+  border-radius: 10px;
+  /*margin:auto;*/
+  width: 95%
+  /*padding: 2em;*/
+
+}
+
+#form_div{
+  background: #fd8534;
+  border-radius: 10px;
+  /*margin:auto;*/
+  width: 95%;
+  color:white;
+}
+button{
+  background: #2cace3;
+  color: white;
+
 }

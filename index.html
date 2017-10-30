@@ -28,13 +28,16 @@
           <li>Adorable antics</li>
         </ul>
       </section>
+      <div class="line">
+        <h2 id="table_title">Table</h2>
+        <p>Below, you'll find some of the information about a few of the cutest puppies ever.</p>
+      </div>
       <section>
         <table>
-          <h2 id="table_title">Table</h2>
-          <p>Below, you'll find some of the information about a few of the cutest puppies ever.</p>
+
           <!-- <table> -->
-          <tr>
-            <td>Breed</td>
+          <tr id="row_one">
+            <td id="">Breed</td>
             <td>Image</td>
             <td>Weight</td>
             <td>Origin</td>
@@ -63,20 +66,28 @@
           </tr>
         </table>
       </section>
-      <form class="" action="index.html" method="post">
+      <div class="line">
         <h2 id="form_title">Puppy love!</h2>
-        <p>Tell us why you love puppies. Favorite Breed: Why do you love puppies? Puppies are the best because... Submit</p>
-        <label for="">First Name</label>
-        <input type="text" name="" value="">
-        <label for="">Last Name</label>
-        <input type="text" name="" value="">
-        <label for="">Next</label>
+        <p>Tell us why you love puppies. Favorite Breed:</p>
+      </div>
+      <form class="" action="index.html" method="post">
+        <div id="form_div">
+          <label for="">First Name</label>
+          <input type="text" name="" value="">
+          <label for="">Last Name</label>
+          <input type="text" name="" value="">
+        </div>
+        <label for="">Favorite Breed:</label>
         <select class="" name="">
-          <option value="one">1</option>
-          <option value="two">2</option>
-
+          <option value="one">Chow Chow</option>
+          <option value="">Doberman Pinscher</option>
+          <option value="">Golden Retriever</option>
         </select>
+        <p>Why do you love puppies?</p>
+        <textarea name="name" rows="8" cols="80">Puppies are the best because...</textarea>
+        <button type="button" name="button">Submit!</button>
       </form>
+      <div class="line"></div>
     </div>
   </div>
 </body>
