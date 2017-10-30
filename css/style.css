@@ -11,6 +11,14 @@ header {
   border: .05em solid white;
 }
 
-#page_content section h2 {
+#page_content section h1 {
   color: #bbe4f6;
+}
+
+#table_title, #form_title {
+  color: #bbe4f6;
+}
+
+table{
+  /*background-color: black;*/
 }
