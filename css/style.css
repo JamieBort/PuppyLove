@@ -1,37 +1,52 @@
-*{
-  margin:auto;
+* {
+  margin: auto;
 }
 
-#container{
-  border: .2em solid #fcd254;
-  /*height: 100vh;*/
-  height: 100%;
-  width: 90%;
-  /*margin: auto;*/
+body {
+  background-color: #84949d;
+}
 
+#container {
+  border: .2em solid #fcd254;
+
+  height: 100%;
+  width: 80%;
+  margin: 10px auto;
+  background-color: white;
 }
 
 header {
   background-color: #fd8534;
 }
 
-.main_navigation a{
+.main_navigation a {
   border: .05em solid white;
   color: white;
   text-decoration: none;
   border-radius: 3px;
 }
 
-#page_content section h1{
+#page_content section h1 {
   margin: auto;
 }
 
 #page_content section {
-  color: #bbe4f6;
   width: 95%
 }
 
-li{
+#page_content section h1, h2 {
+  color: #1aa1df;
+}
+
+#page_content section a {
+  color: #35ace3;
+}
+
+#page_content div h2 {
+  color: #1aa1df;
+}
+
+#page_content ul li {
   font-weight: bold;
 }
 
@@ -39,17 +54,38 @@ li{
   color: #bbe4f6;
 }
 
-table{
-  /*background-color: black;*/
-  /*margin:auto;*/
-}
+#page_content section table, td {
+  border: 1px solid #55bde8;
+  border-collapse: collapse;
+  }
 
-#row_one{
+.TextCell {
+    padding: 3px 5px;
+    }
+
+    /* #page_content section table tr {
+      padding: 30px;
+    } */
+
+
+#row_one {
   background: #2cace3;
   color: white;
+  border: 2px solid #1987b8;
 }
 
-.line{
+#row_one td {
+  padding: 10px;
+}
+
+img {
+  height: 30%;
+  /* width: 50%; */
+  margin: 20px;
+
+}
+
+.line {
   border-top: #dbdbdb 3.5px solid;
   /*margin:auto;*/
   width: 95%
@@ -57,24 +93,23 @@ table{
   /*padding: 5em 0%;*/
 }
 
-form{
+form {
   background: #dbdbdb;
   border-radius: 10px;
   /*margin:auto;*/
   width: 95%
   /*padding: 2em;*/
-
 }
 
-#form_div{
+#form_div {
   background: #fd8534;
   border-radius: 10px;
   /*margin:auto;*/
   width: 95%;
-  color:white;
+  color: white;
 }
-button{
+
+button {
   background: #2cace3;
   color: white;
-
 }

@@ -1,3 +1,9 @@
+TODO:
+
+A completed commit was pushed. However I need to revisit this to address the following:
+
+1. Make this look appropriate on tablets and mobile devices. To do this Chrome's dev tools.
+
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/39
 
 Your task is to review index.png and index.html and to write the CSS to match the mockup listed below.
