@@ -3,6 +3,8 @@ TODO:
 A completed commit was pushed. However I need to revisit this to address the following:
 
 1. Make this look appropriate on tablets and mobile devices. To do this Chrome's dev tools.
+2. Make gh-pages branch (or gh_pages branch).
+3. Push to gh-pages.
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/39
 
