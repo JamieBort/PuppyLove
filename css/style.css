@@ -23,19 +23,14 @@ header {
 }
 
 #logo {
-  border: .2em solid blue;
-  /* bottom: 1em;
-  position: relative; */
+
 }
 
 body div header nav {
-  font-size: 2em;
-  border: .2em solid green;
-  /* bottom: 2em; */
-  /* position: relative; */
-  /* padding-left: 2em; */
-  /* padding-bottom: 1em; */
-  /* margin-bottom: 2em; */
+  width: 95%;
+  font-size: 1.3em;
+  bottom:1em;
+  position: relative;
 }
 
 body div header nav a {
@@ -55,14 +50,16 @@ body div header nav a {
 }
 
 #page_content section h1 {
+
   margin: auto;
 }
 
 #page_content section {
-  width: 95%
+  width: 95%;
 }
 
 #page_content section h1, h2 {
+  padding: 1em 0em;
   color: #1aa1df;
 }
 
@@ -85,6 +82,11 @@ body div header nav a {
 #page_content section table, td {
   border: 1px solid #55bde8;
   border-collapse: collapse;
+}
+
+#page_content section table {
+  width: 100%;
+  /* border: 4px solid red; */
 }
 
 .TextCell {
@@ -115,28 +117,76 @@ img {
 .line {
   border-top: #dbdbdb .25em solid;
   /*margin:auto;*/
-  width: 95%
-  /*padding: 0px 10px;*/
+  width: 95%;
+  /* margin: 0px 10px ; */
   /*padding: 5em 0%;*/
+  /* padding-top: 6em; */
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 form {
   background: #dbdbdb;
   border-radius: 1em;
+  height: 25em;
   /*margin:auto;*/
-  width: 95%
+  width: 95%;
   /*padding: 2em;*/
 }
 
+.cheese {
+  /* border: .1em red solid;
+  width: 95%; */
+}
+
+/* #textarea {
+  width: 95%;
+  border: .1em red solid;
+} */
+
+body div div form textarea {
+
+  width: 95%;
+  border: .1em #2cace3 solid;
+}
+
+/* Comment - the commented out code below is a result of trying to move the form fields down relative to the form background so that the final product looks more like the markup. */
 #form_div {
   background: #fd8534;
   border-radius: .25em;
-  /*margin:auto;*/
+  height: 3em;
   width: 95%;
   color: white;
+  /* margin-top: 3em; */
+  /* padding-top: 5em; */
+  /* position: relative;
+  top: 1em; */
+}
+
+#form_div label{
+  margin-left: 1em;
+}
+
+.div_one {
+  margin-left: 1em;
+  /* border: .1em #2cace3 solid; */
+  /* margin: 1em 0em 1em 0em; */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#form_div label, input {
+  margin-top: 1em;
+}
+
+#FavoriteBreed {
+  /* border: 1px red solid; */
+  /* width: 95%; */
 }
 
 button {
   background: #2cace3;
   color: white;
+  padding: 1em;
+  border-radius: .5em;
 }
