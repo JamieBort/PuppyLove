@@ -5,8 +5,9 @@ A completed commit was pushed. However I need to revisit this to address the fol
 - [ ] 1. Make this match the markup image. (I am 98% done)
 - [ ] 2. Make this look appropriate on tablets and mobile devices. To do this Chrome's dev tools.
 - [ ] 3. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
-- [ ] 4. Make gh-pages branch (or gh_pages branch).
-- [ ] 5. Push to gh-pages.
+- [ ] 4. Remove 'old' directory.
+- [ ] 5. Make gh-pages branch (or gh_pages branch).
+- [ ] 6. Push to gh-pages.
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/39
 
