@@ -5,7 +5,7 @@ A completed commit was pushed. However I need to revisit this to address the fol
 - [X] 1. Make this match the markup image.
 - [ ] 2. Make this look appropriate on tablets and mobile devices too.
 - [ ] 3. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
-- [ ] 4. Remove 'old' directory.
+- [X] 4. Remove 'old' directory.
 - [ ] 5. Make gh-pages branch.
 - [ ] 6. Push to master branch.
 - [ ] 7. Push to gh-pages.
