@@ -2,12 +2,13 @@ TODO:
 
 A completed commit was pushed. However I need to revisit this to address the following:
 
-- [ ] 1. Make this match the markup image. (I am 98% done)
-- [ ] 2. Make this look appropriate on tablets and mobile devices. To do this Chrome's dev tools.
+- [X] 1. Make this match the markup image.
+- [ ] 2. Make this look appropriate on tablets and mobile devices too.
 - [ ] 3. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
 - [ ] 4. Remove 'old' directory.
-- [ ] 5. Make gh-pages branch (or gh_pages branch).
-- [ ] 6. Push to gh-pages.
+- [ ] 5. Make gh-pages branch.
+- [ ] 6. Push to master branch.
+- [ ] 7. Push to gh-pages.
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/39
 

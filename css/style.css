@@ -22,14 +22,12 @@ header {
   border-top-right-radius: .5em;
 }
 
-#logo {
-
-}
+#logo {}
 
 body div header nav {
   width: 95%;
   font-size: 1.3em;
-  bottom:1em;
+  bottom: 1em;
   position: relative;
 }
 
@@ -38,10 +36,6 @@ body div header nav a {
   margin: .25em;
 }
 
-/* header a, nav {
-  border: .2em solid #fcd254;
-} */
-
 .main_navigation a {
   border: .05em solid white;
   color: white;
@@ -49,8 +43,7 @@ body div header nav a {
   border-radius: .25em;
 }
 
-#page_content section h1 {
-
+h1 {
   margin: auto;
 }
 
@@ -58,16 +51,12 @@ body div header nav a {
   width: 95%;
 }
 
-#page_content section h1, h2 {
+h1, h3 {
   padding: 1em 0em;
   color: #1aa1df;
 }
 
-#page_content section a {
-  color: #35ace3;
-}
-
-#page_content div h2 {
+#page_content div h1 {
   color: #1aa1df;
 }
 
@@ -86,17 +75,11 @@ body div header nav a {
 
 #page_content section table {
   width: 100%;
-  /* border: 4px solid red; */
 }
 
 .TextCell {
   padding: .5em .75em;
 }
-
-
-/* #page_content section table tr {
-      padding: 30px;
-    } */
 
 #row_one {
   background: #2cace3;
@@ -110,17 +93,12 @@ body div header nav a {
 
 img {
   height: 30%;
-  /* width: 50%; */
   margin: 2em;
 }
 
 .line {
   border-top: #dbdbdb .25em solid;
-  /*margin:auto;*/
   width: 95%;
-  /* margin: 0px 10px ; */
-  /*padding: 5em 0%;*/
-  /* padding-top: 6em; */
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -128,49 +106,30 @@ img {
 form {
   background: #dbdbdb;
   border-radius: 1em;
-  height: 25em;
-  /*margin:auto;*/
+  height: 22em;
   width: 95%;
-  /*padding: 2em;*/
+  padding: .2em 0em;
 }
-
-.cheese {
-  /* border: .1em red solid;
-  width: 95%; */
-}
-
-/* #textarea {
-  width: 95%;
-  border: .1em red solid;
-} */
 
 body div div form textarea {
-
   width: 95%;
   border: .1em #2cace3 solid;
 }
 
-/* Comment - the commented out code below is a result of trying to move the form fields down relative to the form background so that the final product looks more like the markup. */
 #form_div {
   background: #fd8534;
   border-radius: .25em;
   height: 3em;
   width: 95%;
   color: white;
-  /* margin-top: 3em; */
-  /* padding-top: 5em; */
-  /* position: relative;
-  top: 1em; */
 }
 
-#form_div label{
+#form_div label {
   margin-left: 1em;
 }
 
 .div_one {
   margin-left: 1em;
-  /* border: .1em #2cace3 solid; */
-  /* margin: 1em 0em 1em 0em; */
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -179,10 +138,7 @@ body div div form textarea {
   margin-top: 1em;
 }
 
-#FavoriteBreed {
-  /* border: 1px red solid; */
-  /* width: 95%; */
-}
+#FavoriteBreed {}
 
 button {
   background: #2cace3;
