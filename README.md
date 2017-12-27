@@ -4,6 +4,9 @@ A completed commit was pushed. However I need to revisit this to address the fol
 
 - [X] 1. Make this match the markup image.
 - [ ] 2. Make this look appropriate on tablets and mobile devices too.
+  - [ ] a. Style header such that 'Dog Breeds' is on one line.
+  - [ ] b. Style table.
+  - [ ] c. Style form.
 - [ ] 3. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
 - [ ] 4. Delete commented out, unused code.
 - [X] 5. Remove 'old' directory.
