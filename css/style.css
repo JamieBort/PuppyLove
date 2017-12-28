@@ -168,7 +168,6 @@ body div div form textarea {
   /* max-width: 250px; */
   /* width: 80%; */
   /* margin-right: 1em; */
-
 }
 
 #form_div label, input {
@@ -229,6 +228,39 @@ tr { border: 1px solid #ccc; }
 	*/
 	td:nth-of-type(1):before { content: "Breed"; }
 	td:nth-of-type(2):before { content: "Image"; }
-	td:nth-of-type(3):before { content: "Origin"; }
-	td:nth-of-type(4):before { content: "Markings"; }
+	td:nth-of-type(3):before { content: "Weight"; }
+	td:nth-of-type(4):before { content: "Origin"; }
+  td:nth-of-type(5):before { content: "Markings"; }
 }
+
+/* =========================================== */
+/* from: http://www.websitecodetutorials.com/code/photo-galleries/css-popup-image.php */
+/* =========================================== */
+
+.thumbwrap {
+	position:relative;
+	margin:75px auto;
+	width:252px; height:252px;
+}
+.thumb img {
+	border:1px solid #000;
+	margin:3px;
+	float:left;
+}
+.thumb div {
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover div {
+	visibility:visible;
+	top:0; left:250px;
+  width:auto;
+  height:auto;
+	z-index:1;
+}
+
+
+
+
+
+/* =========================================== */
