@@ -8,11 +8,11 @@
 </head>
 
 <body>
-
   <div id="container">
     <header>
-      <a id="logo"><img src="./images/logo.png" alt=""></a>
-
+      <a id="logo">
+        <img id="logo_img" src="./images/logo.png" alt="">
+      </a>
       <nav class="main_navigation">
         <a href="#">Puppies</a>
         <a href="#">Dog Breeds</a>
@@ -52,7 +52,7 @@
             <td class="TextCell">Chow Chow</td>
             <td>
               <!-- new code -->
-              <div class="popup" onclick="myFunction()">Click me!
+              <div class="popup" onclick="myFunction()">Tap for picture.
                 <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
                 <img class="popuptext" id="myPopup" src="http://itchmo.com/wp-content/uploads/2007/06/cat-facts.jpg" alt="">
               </div>
@@ -66,7 +66,13 @@
           <tr class="thumbwrap">
             <td class="TextCell">Doberman Pinscher</td>
             <td>
-              <a class="thumb" href="#">Tap for Picture.</a>
+              <!-- new code -->
+              <div class="popup" onclick="myFunction2()">Tap for picture.
+                <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
+                <img class="popuptext" id="myPopup2" src="https://static.pexels.com/photos/159541/wildlife-photography-pet-photography-dog-animal-159541.jpeg" alt="">
+              </div>
+              <!-- new code -->
+              <!-- <a class="thumb" href="#">Tap for Picture.</a> -->
             </td>
             <td class="TextCell">32-45lb</td>
             <td class="TextCell">Germany</td>
@@ -75,16 +81,19 @@
           <trclass="thumbwrap">
             <td class="TextCell">Golden Retriever</td>
             <td>
-              <a class="thumb" href="#">Tap for Picture.</a>
-              </td>
+              <!-- new code -->
+              <div class="popup" onclick="myFunction3()">Tap for picture.
+                <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
+                <img class="popuptext" id="myPopup3" src="https://www.gohawaii.com/sites/default/files/styles/listing_large/public/mmg_lfef_images/wild-side-specialty-tours-1417-3bfdc9c742b4c9191e2d35f729f96ee2.jpg?itok=Wu4LBENY" alt="">
+              </div>
+              <!-- new code -->
+              <!-- <a class="thumb" href="#">Tap for Picture.</a> -->
+            </td>
             <td class="TextCell">55-75lb</td>
             <td class="TextCell">Scotland</td>
             <td class="TextCell">Straight or wavy fur; cream and gold</td>
-          </tr>
+            </tr>
         </table>
-
-
-
       </section>
       <div class="line">
         <h1 id="form_title">Puppy love!</h1>
@@ -106,9 +115,9 @@
           </select>
           <p class="div_one" class="cheese">Why do you love puppies?</p>
           <textarea class="div_one" id="textarea" class="cheese" name="name" rows="8" cols="80">Puppies are the best because...</textarea>
-          <button  type="button" name="button">Submit!</button>
+          <button type="button" name="button">Submit!</button>
         </div>
-              </form>
+      </form>
 
 
 
@@ -119,21 +128,27 @@
 
 
 
-<!-- new code -->
+  <!-- new code -->
   <script>
     // When the user clicks on <div>, open the popup
     function myFunction() {
       var popup = document.getElementById("myPopup");
       popup.classList.toggle("show");
     }
+    function myFunction2() {
+      var popup = document.getElementById("myPopup2");
+      popup.classList.toggle("show");
+      var popup3 = document.getElementById("myPopup3");
+      popup3.classList.toggle("show");
+    }
+    function myFunction3() {
+      var popup3 = document.getElementById("myPopup3");
+      popup3.classList.toggle("show");
+    }
   </script>
-<!-- new code -->
+  <!-- new code -->
 
 
 </body>
-
-
-
-
 
 </html>

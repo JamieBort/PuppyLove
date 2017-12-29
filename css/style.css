@@ -35,12 +35,16 @@ header {
   display: flex;
   justify-content: center;
 }
+#logo_img {
+  width: auto;
+  height: 10em;
+}
 
 #container header nav {
-  /* width: 95%;
-  font-size: 1.3em;
-  bottom: 1em;
-  position: relative; */
+  /* width: 95%; */
+  /* font-size: 3em; */
+  /* bottom: 1em; */
+  /* position: relative; */
   /* display: inline; */
   display: flex;
   flex-direction: column;
@@ -56,9 +60,9 @@ And make the buttons as wide as the logo but not wider. */
   border-radius: .25em;
   padding: .25em 30%;
   margin: .1em;
-  width: 23%;
+  width: 25%;
   text-align:center;
-  font-size: 1.2em;
+  font-size: 3em;
 }
 
 h1 {
