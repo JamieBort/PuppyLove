@@ -3,12 +3,22 @@ TODO:
 A completed commit was pushed. However I need to revisit this to address the following:
 
 - [X] 1. Make this match the markup image.
-- [ ] 2. Make this look appropriate on tablets and mobile devices too.
-- [ ] 3. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
-- [X] 4. Remove 'old' directory.
-- [ ] 5. Make gh-pages branch.
-- [ ] 6. Push to master branch.
-- [ ] 7. Push to gh-pages.
+- [X] 2. Remove 'old' directory.
+- [ ] 3. Make this look appropriate on mobile devices.
+  - [ ] a. Refactor code such that the structure is appropriate.
+  - [ ] b. Style header such that 'Dog Breeds' is on one line.
+  - [ ] c. Style table.
+  - [ ] d. Style form.
+- [ ] 4. Make this look appropriate on tablet devices.
+  - [ ] e. Refactor code such that the structure is appropriate.
+  - [ ] f. Style header such that 'Dog Breeds' is on one line.
+  - [ ] g. Style table.
+  - [ ] h. Style form.
+- [ ] 5. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
+- [ ] 6. Delete commented out, unused code.
+- [ ] 7. Make gh-pages branch.
+- [ ] 8. Push to master branch.
+- [ ] 9. Push to gh-pages.
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/39
 

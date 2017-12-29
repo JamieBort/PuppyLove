@@ -8,6 +8,7 @@
 </head>
 
 <body>
+
   <div id="container">
     <header>
       <a id="logo"><img src="./images/logo.png" alt=""></a>
@@ -33,38 +34,57 @@
         <p>Below, you'll find some of the information about a few of the cutest puppies ever.</p>
       </div>
       <section>
+        <!-- <table> -->
+        <!-- For mobile version omit images of animals. Have the option to display the picture when the button of it is tapped. -->
         <table>
-
-          <!-- <table> -->
-          <tr id="row_one">
+          <!-- <tr id="row_one">
             <td id="">Breed</td>
             <td>Image</td>
             <td>Weight</td>
             <td>Origin</td>
             <td>Markings</td>
-          </tr>
-          <tr>
+          </tr> -->
+
+
+
+
+          <tr class="thumbwrap">
             <td class="TextCell">Chow Chow</td>
-            <td><img src="./images/puppy__12.jpg" alt=""></td>
+            <td>
+              <!-- new code -->
+              <div class="popup" onclick="myFunction()">Click me!
+                <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
+                <img class="popuptext" id="myPopup" src="http://itchmo.com/wp-content/uploads/2007/06/cat-facts.jpg" alt="">
+              </div>
+              <!-- new code -->
+              <!-- <a class="thumb" href="#">Tap for Picture.</a> -->
+            </td>
             <td class="TextCell">45-70lb</td>
             <td class="TextCell">China</td>
-            <td class="TextCell">Think and course coat; red, brown and black</td>
+            <td class="TextCell">Thick and course coat; red, brown and black</td>
           </tr>
-          <tr>
+          <tr class="thumbwrap">
             <td class="TextCell">Doberman Pinscher</td>
-            <td><img src="./images/puppy__11.jpg" alt=""></td>
+            <td>
+              <a class="thumb" href="#">Tap for Picture.</a>
+            </td>
             <td class="TextCell">32-45lb</td>
             <td class="TextCell">Germany</td>
             <td class="TextCell">Short coat; black, red, brown, blue</td>
           </tr>
-          <tr>
+          <trclass="thumbwrap">
             <td class="TextCell">Golden Retriever</td>
-            <td><img src="./images/puppy__13.jpg" alt=""></td>
+            <td>
+              <a class="thumb" href="#">Tap for Picture.</a>
+              </td>
             <td class="TextCell">55-75lb</td>
             <td class="TextCell">Scotland</td>
             <td class="TextCell">Straight or wavy fur; cream and gold</td>
           </tr>
         </table>
+
+
+
       </section>
       <div class="line">
         <h1 id="form_title">Puppy love!</h1>
@@ -73,25 +93,47 @@
       <form class="" action="index.html" method="post">
         <div class="div_one" class="cheese" id="form_div">
           <label for="">First Name</label>
-          <input type="text" name="" value="">
+          <input type="text" name="" value="First Name">
           <label for="">Last Name</label>
-          <input type="text" name="" value="">
+          <input type="text" name="" value="Second Name">
+          <label class="cheese" id="FavoriteBreed" for="">Favorite Breed:</label>
+          <select name="">
+            <!-- TODO: Make it so the 'Pick One' option cannot be used/sent to the database. -->
+              <option value="">Pick One</option>
+            <option value="one">Chow Chow</option>
+            <option value="">Doberman Pinscher</option>
+            <option value="">Golden Retriever</option>
+          </select>
+          <p class="div_one" class="cheese">Why do you love puppies?</p>
+          <textarea class="div_one" id="textarea" class="cheese" name="name" rows="8" cols="80">Puppies are the best because...</textarea>
+          <button  type="button" name="button">Submit!</button>
         </div>
-        <div class="div_one">
-        <label class="cheese" id="FavoriteBreed" for="">Favorite Breed:</label>
-        <select name="">
-          <option value="one">Chow Chow</option>
-          <option value="">Doberman Pinscher</option>
-          <option value="">Golden Retriever</option>
-        </select>
-      </div>
-        <p class="div_one" class="cheese">Why do you love puppies?</p>
-        <textarea class="div_one" id="textarea" class="cheese" name="name" rows="8" cols="80">Puppies are the best because...</textarea>
-        <button class="div_one" type="button" name="button">Submit!</button>
-      </form>
+              </form>
+
+
+
+
       <div class="line"></div>
     </div>
   </div>
+
+
+
+<!-- new code -->
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
+<!-- new code -->
+
+
 </body>
+
+
+
+
 
 </html>
