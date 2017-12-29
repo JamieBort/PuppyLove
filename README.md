@@ -6,6 +6,7 @@ A completed commit was pushed. However I need to revisit this to address the fol
 - [X] 2. Remove 'old' directory.
 - [ ] 3. Make this look appropriate on mobile devices.
   - [ ] a. Refactor code such that the structure is appropriate.
+      - [ ] i. Create a js file. Move the JavaScript code over to the new js file.
   - [ ] b. Style header such that 'Dog Breeds' is on one line.
   - [ ] c. Style table.
   - [ ] d. Style form.

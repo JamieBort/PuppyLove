@@ -35,12 +35,13 @@ header {
   display: flex;
   justify-content: center;
 }
+
 #logo_img {
   width: auto;
   height: 10em;
 }
 
-#container header nav {
+#nav {
   /* width: 95%; */
   /* font-size: 3em; */
   /* bottom: 1em; */
@@ -51,8 +52,10 @@ header {
   align-items: center;
 }
 
+
 /* TODO: make it so 'dog breeds' is on one line.
 And make the buttons as wide as the logo but not wider. */
+
 .main_navigation a {
   border: .05em solid white;
   color: white;
@@ -61,7 +64,7 @@ And make the buttons as wide as the logo but not wider. */
   padding: .25em 30%;
   margin: .1em;
   width: 25%;
-  text-align:center;
+  text-align: center;
   font-size: 3em;
 }
 
@@ -72,8 +75,8 @@ h1 {
 #page_content {
   width: 85%;
   margin: auto;
-
 }
+
 #page_content section {
   /* width: 85%;
   margin: auto; */
@@ -86,12 +89,12 @@ h1, h3 {
   color: #1aa1df;
 }
 
-#page_content div h1 {
-  /* color: #1aa1df; */
-}
-
 #page_content ul li {
   /* font-weight: bold; */
+}
+
+#page_content div h1 {
+  /* color: #1aa1df; */
 }
 
 #table_title, #form_title {
@@ -136,11 +139,11 @@ img {
 form {
   background: #dbdbdb;
   border-radius: 1em;
+  font-size: 2em;
   /* height: 22em; */
   /* width: 95%; */
   /* padding: .2em 0em; */
 }
-
 
 body div div form textarea {
   /* width: 95%;
@@ -178,12 +181,18 @@ body div div form textarea {
   /* margin-top: 1em; */
 }
 
+input, select, textarea, button {
+  /* font: normal 1em courier !important; */
+  /* TODO: change 'courier' to match the font of the rest of the text. */
+  font: normal 1em courier;
+}
+
 #FavoriteBreed {}
 
-  #textarea {
-    /* margin-left: 1em; */
-    /* width: 80%; */
-  }
+#textarea {
+  /* margin-left: 1em; */
+  /* width: 80%; */
+}
 
 button {
   background: #2cace3;
@@ -191,114 +200,151 @@ button {
   padding: .5em;
   border-radius: .5em;
 }
+
 button:hover {
   color: green;
 }
+
+
 /* The following is copied from https://css-tricks.com/responsive-data-tables/ */
+
+
 /* Force table to not be like tables anymore */
+
 table, thead, tbody, th, td, tr {
   display: block;
 }
 
+
 /* Hide table headers (but not display: none;, for accessibility) */
+
 thead td {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
-tr { border: 1px solid #ccc; }
 
-	td {
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee;
-		position: relative;
-		padding-left: 50%;
-	}
+tr {
+  border: 1px solid #ccc;
+}
 
-	td:before {
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%;
-		padding-right: 10px;
-		white-space: nowrap;
-	}
+td {
+  /* Behave  like a "row" */
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 50%;
+}
 
-	/*
+td:before {
+  /* Now like a table header */
+  position: absolute;
+  /* Top/left values mimic padding */
+  top: 6px;
+  left: 6px;
+  width: 45%;
+  /* Added font-size to make larger. Might mess with other sized screens. */
+  font-size: 2em;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+
+/*
 	Label the data
 	*/
-	td:nth-of-type(1):before { content: "Breed"; }
-	td:nth-of-type(2):before { content: "Image"; }
-	td:nth-of-type(3):before { content: "Weight"; }
-	td:nth-of-type(4):before { content: "Origin"; }
-  td:nth-of-type(5):before { content: "Markings"; }
+
+td:nth-of-type(1):before {
+  content: "Breed";
+}
+
+td:nth-of-type(2):before {
+  content: "Image";
+}
+
+td:nth-of-type(3):before {
+  content: "Weight";
+}
+
+td:nth-of-type(4):before {
+  content: "Origin";
+}
+
+td:nth-of-type(5):before {
+  content: "Markings";
+}
+
+
 }
 
 /* =========================================== */
+
 /* from: https://www.w3schools.com/howto/howto_js_popup.asp */
+
 /* =========================================== */
-
-
-
 
 /* Popup container */
 .popup {
-    position: relative;
-    top: 2em;
-    display: inline-block;
-    cursor: pointer;
+  position: relative;
+  top: 2em;
+  display: inline-block;
+  cursor: pointer;
 }
 
 /* The actual popup (appears on top) */
 .popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    /* bottom: 125%; */
-    left: 50%;
-    margin-left: -80px;
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  /* bottom: 125%; */
+
+  left: 50%;
+  margin-left: -80px;
 }
 
 /* Popup arrow */
 .popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
-    visibility: visible;
-
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
 }
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
+  from {
+    opacity: 0;
+  }
 
+  to {
+    opacity: 1;
+  }
+}
 @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
-
-
 
 /* =========================================== */

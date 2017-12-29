@@ -13,7 +13,7 @@
       <a id="logo">
         <img id="logo_img" src="./images/logo.png" alt="">
       </a>
-      <nav class="main_navigation">
+      <nav id="nav" class="main_navigation">
         <a href="#">Puppies</a>
         <a href="#">Dog Breeds</a>
         <a href="#">So Cute</a>
@@ -53,7 +53,6 @@
             <td>
               <!-- new code -->
               <div class="popup" onclick="myFunction()">Tap for picture.
-                <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
                 <img class="popuptext" id="myPopup" src="http://itchmo.com/wp-content/uploads/2007/06/cat-facts.jpg" alt="">
               </div>
               <!-- new code -->
@@ -83,7 +82,6 @@
             <td>
               <!-- new code -->
               <div class="popup" onclick="myFunction3()">Tap for picture.
-                <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
                 <img class="popuptext" id="myPopup3" src="https://www.gohawaii.com/sites/default/files/styles/listing_large/public/mmg_lfef_images/wild-side-specialty-tours-1417-3bfdc9c742b4c9191e2d35f729f96ee2.jpg?itok=Wu4LBENY" alt="">
               </div>
               <!-- new code -->
@@ -103,12 +101,14 @@
         <div class="div_one" class="cheese" id="form_div">
           <label for="">First Name</label>
           <input type="text" name="" value="First Name">
+
           <label for="">Last Name</label>
           <input type="text" name="" value="Second Name">
           <label class="cheese" id="FavoriteBreed" for="">Favorite Breed:</label>
           <select name="">
-            <!-- TODO: Make it so the 'Pick One' option cannot be used/sent to the database. -->
-              <option value="">Pick One</option>
+
+<!-- TODO: Make it so the 'Pick One' option cannot be used/sent to the database. -->
+            <option value="">Pick One</option>
             <option value="one">Chow Chow</option>
             <option value="">Doberman Pinscher</option>
             <option value="">Golden Retriever</option>
@@ -118,10 +118,6 @@
           <button type="button" name="button">Submit!</button>
         </div>
       </form>
-
-
-
-
       <div class="line"></div>
     </div>
   </div>
@@ -138,12 +134,10 @@
     function myFunction2() {
       var popup = document.getElementById("myPopup2");
       popup.classList.toggle("show");
-      var popup3 = document.getElementById("myPopup3");
-      popup3.classList.toggle("show");
     }
     function myFunction3() {
-      var popup3 = document.getElementById("myPopup3");
-      popup3.classList.toggle("show");
+      var popup = document.getElementById("myPopup3");
+      popup.classList.toggle("show");
     }
   </script>
   <!-- new code -->
