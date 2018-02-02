@@ -4,19 +4,21 @@ A completed commit was pushed. However I need to revisit this to address the fol
 
 - [X] 1. Make this match the markup image.
 - [X] 2. Remove 'old' directory.
-- [ ] 3. Make this look appropriate on mobile devices.
-  - [ ] a. Refactor code such that the structure is appropriate.
-      - [ ] i. Create a js file. Move the JavaScript code over to the new js file.
-  - [ ] b. Style header such that 'Dog Breeds' is on one line.
-  - [ ] c. Style table.
-      - [ ] i. 'Breed', 'Image', 'Weight', 'Origin', and 'Markings' are not the right size.
-  - [ ] d. Style form.
-      - [ ] i. 'First Name', 'Last Name', 'Favorite Breed', 'Why do you love puppies', 'First Name', 'Second Name', 'Pick One', and 'Puppies are the best because...' are not the right size.
-- [ ] 4. Make this look appropriate on tablet devices.
-  - [ ] e. Refactor code such that the structure is appropriate.
-  - [ ] f. Style header such that 'Dog Breeds' is on one line.
-  - [ ] g. Style table.
-  - [ ] h. Style form.
+- [ ] 3. Responsive Design:
+  - [ ] a. Make this look appropriate on mobile devices.
+    - [ ] i. Refactor code such that the structure is appropriate.
+        - [ ] 1. Create a js file. Move the JavaScript code over to the new js file.
+        - [ ] 2. Style header such that 'Dog Breeds' is on one line.
+    - [ ] ii. Style table.
+        - [ ] 1. 'Breed', 'Image', 'Weight', 'Origin', and 'Markings' are not the right size.
+        - [ ] 2. Style form.
+        - [ ] 3. 'First Name', 'Last Name', 'Favorite Breed', 'Why do you love puppies', 'First Name', 'Second Name', 'Pick One', and 'Puppies are the best because...' are not the right size.
+  - [ ] b. Make this look appropriate on tablet devices.
+    - [ ] i. Refactor code such that the structure is appropriate.
+    - [ ] ii. Style header such that 'Dog Breeds' is on one line.
+    - [ ] iii. Style table.
+    - [ ] iv. Style form.
+  - [ ] c. Make this look appropriate on desktop/laptop devices.
 - [ ] 5. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
 - [ ] 6. Delete commented out, unused code.
 - [ ] 7. Make gh-pages branch.
