@@ -52,7 +52,6 @@ header {
   align-items: center;
 }
 
-
 /* TODO: make it so 'dog breeds' is on one line.
 And make the buttons as wide as the logo but not wider. */
 
@@ -187,6 +186,11 @@ input, select, textarea, button {
   font: normal 1em courier;
 }
 
+#orange {
+  background-color: orange;
+  padding: 0.5em;
+}
+
 #FavoriteBreed {}
 
 #textarea {
@@ -205,16 +209,13 @@ button:hover {
   color: green;
 }
 
-
 /* The following is copied from https://css-tricks.com/responsive-data-tables/ */
-
 
 /* Force table to not be like tables anymore */
 
 table, thead, tbody, th, td, tr {
   display: block;
 }
-
 
 /* Hide table headers (but not display: none;, for accessibility) */
 
@@ -249,7 +250,6 @@ td:before {
   white-space: nowrap;
 }
 
-
 /*
 	Label the data
 	*/
@@ -274,7 +274,6 @@ td:nth-of-type(5):before {
   content: "Markings";
 }
 
-
 }
 
 /* =========================================== */
@@ -284,6 +283,7 @@ td:nth-of-type(5):before {
 /* =========================================== */
 
 /* Popup container */
+
 .popup {
   position: relative;
   top: 2em;
@@ -292,6 +292,7 @@ td:nth-of-type(5):before {
 }
 
 /* The actual popup (appears on top) */
+
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
@@ -303,12 +304,12 @@ td:nth-of-type(5):before {
   position: absolute;
   z-index: 1;
   /* bottom: 125%; */
-
   left: 50%;
   margin-left: -80px;
 }
 
 /* Popup arrow */
+
 .popup .popuptext::after {
   content: "";
   position: absolute;
@@ -321,6 +322,7 @@ td:nth-of-type(5):before {
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
+
 .popup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
@@ -328,23 +330,41 @@ td:nth-of-type(5):before {
 }
 
 /* Add animation (fade in the popup) */
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
 }
 
 /* =========================================== */
+
+/* Style for tablets */
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (min-width: 40em) {
+table {
+    background-color: green;
+  }
+}
+
+/* Style for desktop */
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (min-width: 60em) {
+table {
+    background-color: blue;
+  }
+}
