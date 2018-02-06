@@ -23,7 +23,7 @@ A completed commit was pushed. However I need to revisit this to address the fol
   - [ ] c. Make this look appropriate on desktop/laptop devices.
 - [ ] 5. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
 - [ ] 6. Delete commented out, unused code.
-- [ ] 7. Make gh-pages branch.
+- [X] 7. Make gh-pages branch.
 - [ ] 8. Push to master branch.
 - [ ] 9. Push to gh-pages.
 
