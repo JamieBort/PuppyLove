@@ -190,6 +190,15 @@ input, select, textarea, button {
   background-color: orange;
   padding: 0.5em;
   color: white;
+  border-radius: 0.5em;
+}
+
+#orange div {
+  padding: .1em;
+}
+
+#orange input {
+  width: 50%;
 }
 
 #FavoriteBreed {}
