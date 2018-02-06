@@ -242,11 +242,12 @@ td:before {
   /* Now like a table header */
   position: absolute;
   /* Top/left values mimic padding */
-  top: 6px;
+  /* top: 6px; */
+
   left: 6px;
   width: 45%;
   /* Added font-size to make larger. Might mess with other sized screens. */
-  font-size: 2em;
+  font-size: 3em;
   padding-right: 10px;
   white-space: nowrap;
 }
@@ -257,7 +258,6 @@ td:before {
 
 td:nth-of-type(1):before {
   content: "Breed";
-  font-size: 4em;
 }
 
 td:nth-of-type(2):before {
