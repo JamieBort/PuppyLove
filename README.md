@@ -8,7 +8,7 @@ A completed commit was pushed. However I need to revisit this to address the fol
   - [ ] a. Make this look appropriate on mobile devices.
     - [ ] i. Refactor code such that the structure is appropriate.
         - [ ] 1. Create a js file. Move the JavaScript code over to the new js file.
-        - [ ] 2. Style header such that 'Dog Breeds' is on one line.
+        - [X] 2. Style header such that 'Dog Breeds' is on one line.
     - [ ] ii. Style table.
         - [X] 1. 'Breed', 'Image', 'Weight', 'Origin', and 'Markings' are not the right size.
     - [ ] iii. Style form.
@@ -21,6 +21,7 @@ A completed commit was pushed. However I need to revisit this to address the fol
     - [ ] iii. Style table.
     - [ ] iv. Style form.
   - [ ] c. Make this look appropriate on desktop/laptop devices.
+    - [ ] i. Style header to match the mockup.
 - [ ] 5. Clean up tags (id and class) so the css consists of as few of lines of code as necessary.
 - [ ] 6. Delete commented out, unused code.
 - [X] 7. Make gh-pages branch.
