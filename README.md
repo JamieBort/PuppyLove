@@ -10,7 +10,7 @@ A completed commit was pushed. However I need to revisit this to address the fol
         - [ ] 1. Create a js file. Move the JavaScript code over to the new js file.
         - [ ] 2. Style header such that 'Dog Breeds' is on one line.
     - [ ] ii. Style table.
-        - [ ] 1. 'Breed', 'Image', 'Weight', 'Origin', and 'Markings' are not the right size.
+        - [X] 1. 'Breed', 'Image', 'Weight', 'Origin', and 'Markings' are not the right size.
         - [ ] 2. Style form.
         - [ ] 3. 'First Name', 'Last Name', 'Favorite Breed', 'Why do you love puppies', 'First Name', 'Second Name', 'Pick One', and 'Puppies are the best because...' are not the right size.
   - [ ] b. Make this look appropriate on tablet devices.

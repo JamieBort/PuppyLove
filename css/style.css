@@ -189,6 +189,7 @@ input, select, textarea, button {
 #orange {
   background-color: orange;
   padding: 0.5em;
+  color: white;
 }
 
 #FavoriteBreed {}
@@ -235,7 +236,6 @@ td {
   border-bottom: 1px solid #eee;
   position: relative;
   padding-left: 50%;
-  /* font-size: 3em; */
 }
 
 td:before {
